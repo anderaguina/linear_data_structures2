@@ -1,5 +1,6 @@
 package hint2;
 
+
 /**
 * ADT MyList: Private Part<br>. 
 * The class implements all the operations available in MyList<br>
