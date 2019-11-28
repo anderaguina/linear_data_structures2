@@ -77,20 +77,13 @@ public class MyMain {
 		System.out.println("\n----------- Test: getNumAppearances -------------\n");
 		
 		resI = ex.getNumAppearances(m1, 0);
-		System.out.println("RESI" + resI);
-		
-		ex.iterativeDisplayElements(m3);
-		System.out.println("M3 0 BEFORE = " + m3.length());
-		
+		System.out.println(resI);
+				
 		resI = ex.getNumAppearances(m3, 6);
-		System.out.println("RESI" + resI);	
-		System.out.println("M3 0 AFTER = " + m3.length());
+		System.out.println(resI);
 		
-		System.out.println("M3 1 BEFORE = " + m3.length());
-		ex.iterativeDisplayElements(m3);
 		resI = ex.getNumAppearances(m3, 5);
-		System.out.println("RESI" + resI); 		
-		System.out.println("M3 1 AFTER = " + m3.length());
+		System.out.println(resI); 		
 		
 		//----------------------------
 		//4. We test n_toThePowerof_m

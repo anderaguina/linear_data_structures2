@@ -51,11 +51,9 @@ public class MyMain {
 		
 		
 		ex.recursiveDisplayElements(m1);
-		
-		ex.iterativeDisplayElements(m2);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");	
 		ex.recursiveDisplayElements(m2);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		ex.recursiveDisplayElements(m3);
 		
 		//----------------------------
@@ -64,45 +62,39 @@ public class MyMain {
 		System.out.println("\n----------- Test: smallerMyList -------------\n");
 	
 		resM = ex.smallerMyList(m1, 9);
-		System.out.println("MAIN 0: " + resM.length());
 		ex.recursiveDisplayElements(resM);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.smallerMyList(m2, 9);
-		System.out.println("MAIN 1: " + resM.length());
 		ex.recursiveDisplayElements(resM);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.smallerMyList(m3, 6);
-		System.out.println("MAIN 2: " + resM.length());
 		ex.recursiveDisplayElements(resM);
 		
 		//----------------------------
 		//3. We test biggerEqualMyList
 		//----------------------------	
-		/*
+		
 		System.out.println("\n----------- Test: biggerEqualMyList -------------\n");
 		
 		resM = ex.biggerEqualMyList(m1, 9);
 		ex.recursiveDisplayElements(resM);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.biggerEqualMyList(m2, 9);
 		ex.recursiveDisplayElements(resM);
-		
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.biggerEqualMyList(m3, 6);
 		ex.recursiveDisplayElements(resM);
-		*/
+		
 		//----------------------------
 		//4. We test concatenate
 		//----------------------------
 		System.out.println("\n----------- Test: concatenate -------------\n");
-		System.out.println("M1 > M2");
 		resM = ex.concatenate(m1, m2);
 		ex.recursiveDisplayElements(resM);
-		
-		System.out.println("M2 > M1");
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.concatenate(m2, m1);
 		ex.recursiveDisplayElements(resM);		
-		
-		System.out.println("M2 > M3");
+		System.out.println("\n----------- ------------------------------- -------------\n");
 		resM = ex.concatenate(m2, m3);
 		ex.recursiveDisplayElements(resM);
 		

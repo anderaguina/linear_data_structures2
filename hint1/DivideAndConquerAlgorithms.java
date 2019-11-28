@@ -163,7 +163,6 @@ public class DivideAndConquerAlgorithms {
 		int appearances = 0;
 		
 		if (m1.getElement(0) == n) {
-			System.out.println("PATH 1");
 			appearances++;
 		} else {
 			
